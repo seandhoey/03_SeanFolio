@@ -1,7 +1,7 @@
 export const defaultProps = {
   easing: "cubic-bezier(0.5, 0, 0, 1)",
   distance: "30px",
-  duration: 700,
+  duration: 300,
   desktop: true,
   mobile: true,
 };
@@ -25,21 +25,21 @@ export const targetElements = [
   {
     element: ".hero-cta",
     animation: {
-      delay: 600,
+      delay: 300,
       origin: window.innerWidth > 768 ? "left" : "bottom",
     },
   },
   {
     element: ".about-wrapper__image",
     animation: {
-      delay: 400,
+      delay: 300,
       origin: "bottom",
     },
   },
   {
     element: ".about-wrapper__info",
     animation: {
-      delay: 600,
+      delay: 300,
       origin: window.innerWidth > 768 ? "left" : "bottom",
     },
   },
@@ -53,14 +53,14 @@ export const targetElements = [
   {
     element: ".project-wrapper__image",
     animation: {
-      delay: 600,
+      delay: 300,
       origin: window.innerWidth > 768 ? "right" : "bottom",
     },
   },
   {
     element: ".contact-wrapper",
     animation: {
-      delay: 500,
+      delay: 300,
       origin: "bottom",
     },
   },
